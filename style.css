@@ -1,0 +1,33 @@
+#gameContainer {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  border: 1px solid black;
+}
+
+#gameCanvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#bird {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: yellow;
+}
+
+#pipeContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.pipe {
+    position: absolute;
+    width: 50px;
+    height: 200px;
+    background: green;
+    right: -50px;
+}
