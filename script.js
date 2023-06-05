@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
   birdImage.src = 'bird.jpg';
   let birdGravity = 0;
   let birdY = canvas.height / 2;
-  let birdHeight = 50;
-  let birdWidth = 50;
+  let birdHeight = 55;
+  let birdWidth = 55;
 
   let pipeWidth = 50;
   let pipeArray = [];
